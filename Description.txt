@@ -5,7 +5,7 @@ started on 12-12-2021
 How to create a Color Flipper -------------------------------------> Done
 How to create a counter -------------------------------------------> Done 
 How to create a review carousel -----------------------------------> Done
-How to create a responsive navbar
+How to create a responsive navbar ---------------------------------> Done
 How to create a sidebar
 How to create a modal
 How to create a FAQ page
