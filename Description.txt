@@ -6,9 +6,9 @@ How to create a Color Flipper -------------------------------------> Done
 How to create a counter -------------------------------------------> Done 
 How to create a review carousel -----------------------------------> Done
 How to create a responsive navbar ---------------------------------> Done
-How to create a sidebar
-How to create a modal
-How to create a FAQ page
+How to create a sidebar -------------------------------------------> Done
+How to create a modal ---------------------------------------------> Done
+How to create a FAQ page ------------------------------------------> Done
 How to create a restaurant menu page
 How to create a video background
 How to create a navigation bar on scroll
