@@ -6,9 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 8</title>
   </head>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .head {
+      text-align: center;
+      padding-top: 25px;
+      font-size: 40px;
+      color: rgb(10, 11, 29);
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      position: relative;
+    }
+    .btns {
+      text-align: center;
+      color: goldenrod;
+      font-weight: 900;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 16px;
+    }
+    .btn {
+      margin: 15px 5px;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 7px 15px;
+      border: 2px solid goldenrod;
+      cursor: pointer;
+    }
+    .lists {
+      width: 1400px;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 80px;
+      margin: auto;
+    }
+    .item {
+      display: flex;
+      width: 500px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .imgbox {
+      width: 250px;
+      height: 150px;
+    }
+    .imgbox img {
+      height: 100%;
+      width: 100%;
+      border: 2px solid goldenrod;
+      border-radius: 5px;
+    }
+    .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .subhead {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+      font-weight: 700;
+      margin-left: 25px;
+    }
+    .hide {
+      display: none;
+    }
+    .show {
+      display: "";
+    }
+  </style>
   <body>
     <div class="head">Our Menu</div>
-    <div class="menu"></div>
+    <div class="menu">
+      <div class="btns">
+        <span class="btn" data-target="all">All</span>
+        <span class="btn" data-target="veg">Only Veg</span>
+        <span class="btn" data-target="non-veg">Only Non-Veg</span>
+      </div>
+      <div class="lists">
+        <div class="item" data-sikar="veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-1.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">Buttermilk Pancakes</span>
+          </div>
+        </div>
+        <div class="item" data-sikar="veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-4.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">Country Delight</span>
+          </div>
+        </div>
+        <div class="item" data-sikar="non-veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">Diner Double</span>
+          </div>
+        </div>
+        <div class="item" data-sikar="veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-7.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">Bacon Overflow</span>
+          </div>
+        </div>
+        <div class="item" data-sikar="non-veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-8.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">American Classic</span>
+          </div>
+        </div>
+        <div class="item" data-sikar="non-veg">
+          <div class="imgbox">
+            <img
+              src="https://vanilla-js-basic-project-8-menu.netlify.app/images/item-10.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="details">
+            <span class="subhead">African Classic</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
