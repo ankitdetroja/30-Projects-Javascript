@@ -6,5 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 9</title>
   </head>
-  <body></body>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      max-height: 100vh;
+      min-width: 100vw;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    h1 {
+      position: absolute;
+      /* z-index: 100; */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 55px;
+      color: white;
+    }
+    .control {
+      position: absolute;
+      bottom: 100px;
+      left: 100px;
+      border-radius: 5px;
+      color: lightskyblue;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      letter-spacing: 3px;
+      background: white;
+      display: flex;
+    }
+    .play,
+    .pause {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 0;
+      width: 50px;
+    }
+
+    .ol {
+      background: royalblue;
+      width: 80px;
+      height: 45px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 5px;
+      transition: left 0.2s ease-in-out;
+      cursor: pointer;
+    }
+    .add {
+      left: 50%;
+    }
+  </style>
+  <body>
+    <video muted autoplay loop>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <h1>Video Project</h1>
+    <div class="control">
+      <span class="play">Play</span>
+      <span class="pause">Pause</span>
+      <span class="ol"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
