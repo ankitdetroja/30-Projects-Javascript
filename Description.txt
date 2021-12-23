@@ -11,8 +11,8 @@ How to create a modal ---------------------------------------------> Done
 How to create a FAQ page ------------------------------------------> Done
 How to create a restaurant menu page ------------------------------> Done
 How to create a video background ----------------------------------> Done
-How to create a navigation bar on scroll
-How to create tabs that display different content
+How to create a navigation bar on scroll --------------------------> Done
+How to create tabs that display different content -----------------> Dnoe
 How to create a countdown clock
 How to create your own Lorem ipsum
 How to create a grocery list

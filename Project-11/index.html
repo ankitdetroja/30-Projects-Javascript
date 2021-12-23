@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 11</title>
+    <style>
+      body {
+        height: 100vh;
+        background: #f1f5f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .wrapper {
+        width: 600px;
+        height: 300px;
+        background: white;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .btns {
+        width: 100%;
+        display: flex;
+      }
+      .btn {
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+        flex: 1;
+        display: inline-block;
+        background: hsl(213deg 32% 89%);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        letter-spacing: 2px;
+      }
+      .items {
+        background: white;
+        height: auto;
+        padding: 60px 30px;
+        font-size: 20px;
+      }
+      .item {
+        display: none;
+      }
+      .active {
+        display: block;
+      }
+      .activetab {
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="btns">
+        <span class="btn activetab" data-target="history">History</span>
+        <span class="btn" data-target="vision">Vision</span>
+        <span class="btn" data-target="goals">Goals</span>
+      </div>
+      <div class="items">
+        <div class="item active" data-sikar="history">
+          History
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          maxime doloribus assumenda sint sequi expedita autem illo facere
+          laboriosam at! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Tempore pariatur quasi quos vitae reprehenderit molestiae nobis
+          repellat, obcaecati vero deleniti.
+        </div>
+        <div class="item" data-sikar="vision">
+          Vision <br />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+          molestiae excepturi ullam blanditiis rem! Molestiae perferendis
+          delectus amet impedit optio praesentium numquam cum repellat
+          voluptatem architecto, totam, nobis sed quo dolor temporibus
+          repellendus dignissimos possimus error voluptatibus cumque quis!
+          Optio!
+        </div>
+        <div class="item" data-sikar="goals">
+          Goals <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Voluptatibus mollitia accusamus architecto quae, non odit. Molestiae
+          magni unde rerum debitis quae dolorem id tenetur error doloribus
+          similique maiores vero ullam enim sint minus fugiat adipisci, vitae
+          odit repellat vel quia!
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
