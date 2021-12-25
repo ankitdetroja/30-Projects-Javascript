@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 13</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: hsl(213deg 32% 89%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      color: rgb(0, 0, 41);
+      letter-spacing: 3px;
+      margin-top: 10px;
+    }
+    .genrator {
+      display: flex;
+    }
+    input {
+      width: 60px;
+    }
+    button {
+      padding: 0 10px;
+      letter-spacing: 2px;
+      border: 1px solid rgb(0, 0, 41);
+      cursor: pointer;
+    }
+    .paragraph {
+      width: 50rem;
+      margin: 50px auto;
+      color: gray;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>TIRED OF BORING LOREM IPSUM?</h1>
+    <div class="genrator">
+      <p>Paragraphs:&nbsp;</p>
+      <input type="number" placeholder="1 to 9" />&nbsp;
+      <button type="button">GENERATE</button>
+    </div>
+    <div class="paragraph"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
