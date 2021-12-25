@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 15</title>
+  </head>
+  <style>
+    body {
+      background: hsl(213deg 32% 89%);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      width: 1000px;
+      height: 500px;
+      margin: auto;
+      display: flex;
+      /* justify-content: flex-start; */
+      border: 5px solid rgb(68, 195, 245);
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 1;
+      position: relative;
+    }
+    .box {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: all 300ms ease-in-out;
+    }
+    .box img {
+      width: 100%;
+      height: 100%;
+    }
+    .btns {
+      margin-top: 50px;
+    }
+    .left {
+      transform: translateX(-1000px);
+    }
+    .right {
+      transform: translateX(1000px);
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <img
+          src="https://vannilla-js-basic-project-15-slider.netlify.app/img-1.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="box" style="background: chocolate"></div>
+      <div class="box">
+        <img
+          src="https://vannilla-js-basic-project-15-slider.netlify.app/img-2.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="box" style="background: cornflowerblue"></div>
+      <div class="box">
+        <img
+          src="https://vannilla-js-basic-project-15-slider.netlify.app/img-2.jpeg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="btns">
+      <button type="button" class="prev">Prev</button>
+      <button type="button" class="next">Next</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

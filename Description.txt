@@ -16,7 +16,7 @@ How to create tabs that display different content -----------------> Dnoe
 How to create a countdown clock -----------------------------------> Done
 How to create your own Lorem ipsum --------------------------------> Done
 How to create a grocery list --------------------------------------> Done
-How to create an image slider
+How to create an image slider -------------------------------------> Done
 How to create a Rock Paper Scissors game
 How to create a Simon Game
 How to create a Platformer Game
