@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 12</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      background: hsl(213deg 32% 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    h1 {
+      letter-spacing: 3px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      color: #102a42;
+    }
+    p {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      color: rgb(1, 1, 2);
+      letter-spacing: 2px;
+    }
+    .timer {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+    .block {
+      width: 80px;
+      height: 80px;
+      background: #102a42;
+      margin-right: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+    }
+    .num {
+      font-size: 30px !important;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>NEW YEAR GIVEAWAY</h1>
+    </div>
+    <div class="timer">
+      <div class="block days">
+        <span class="daystimer num">00</span>
+        <span class="daysheader">DAYS</span>
+      </div>
+      <div class="block hours">
+        <span class="hourstimer num">00</span>
+        <span class="hoursheader">HOURS</span>
+      </div>
+      <div class="block mins">
+        <span class="minstimer num">00</span>
+        <span class="minsheader">MINS</span>
+      </div>
+      <div class="block secs">
+        <span class="secstimer num">00</span>
+        <span class="secsheader">SECS</span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
