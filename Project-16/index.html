@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 16</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      background: #f1f5f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+    .chuckimg {
+      width: 150px;
+      height: 230px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .chuckimg img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    button {
+      padding: 5px 10px;
+      letter-spacing: 3px;
+      border-radius: 5px;
+      background: #49a6e9;
+      outline: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .joke {
+      color: gray;
+    }
+    .shakechuck {
+      animation: shake 0.3s;
+    }
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="chuckimg">
+        <img
+          src="https://ajax-basic-projects-random-jokes.netlify.app/chuck.png"
+          alt=""
+        />
+      </div>
+      <div class="btn">
+        <button type="button">MAKE ME LAUGH CHUCK!</button>
+      </div>
+      <div class="content">
+        <p class="joke"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
