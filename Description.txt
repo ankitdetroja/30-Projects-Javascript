@@ -20,6 +20,7 @@ How to create an image slider -------------------------------------> Done
 How to create a random joke generator -----------------------------> Done
 How to create a random user generator -----------------------------> Done
 How to fetch cocktail api and show cocktails ----------------------> Done
+How to create meal finder using meal api --------------------------> Done
 How to create a Rock Paper Scissors game
 How to create a Simon Game
 How to create a Platformer Game
