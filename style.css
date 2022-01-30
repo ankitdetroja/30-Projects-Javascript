@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1.15;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  background-color: #e2e8f0;
+  font-family: "Inconsolata", monospace;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 75rem;
+  margin: auto;
+  padding: 0 20px;
+}
+header {
+  background-color: #fff;
+}
+.headerContent {
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.headerContentLeft,
+.headerContentRight {
+  width: 50%;
+  flex: none;
+  /* flex-shrink: 1; */
+}
+.headerContentRight {
+  padding: 0 30px;
+}
+.headerContentRight img {
+  width: 100%;
+}
+
+.headerContentLeft h2 {
+  font-size: 3.052rem;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+}
+.headerContentLeft p {
+  line-height: 1.75;
+  max-width: 90%;
+  margin: 2rem 0px;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.headerContentLeft button {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222222;
+  background-color: #f0db51;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  animation: incDec 1s infinite alternate-reverse;
+  cursor: pointer;
+}
+@keyframes incDec {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.projectsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 0 150px 0;
+}
+.projectItem {
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
+.projectItem .imgBox {
+  width: 100%;
+  height: 220px;
+}
+.projectItem .imgBox img {
+  width: 100%;
+  height: 100%;
+}
+.itemHeader {
+  width: 100%;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  color: #6b5d00;
+  background-color: #f8e881;
+  letter-spacing: 1px;
+  font-family: "Inconsolata", monospace;
+}
+.projectHeader {
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: center;
+  padding: 100px 0 50px 0;
+  position: relative;
+}
+.projectHeader::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #f0db51;
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  bottom: 40px;
+}
+@media screen and (max-width: 1215px) {
+  .headerContentRight img {
+    display: none;
+  }
+  .headerContentLeft {
+    width: 100%;
+  }
+  .headerContentLeft p {
+    width: 100%;
+  }
+}
