@@ -104,6 +104,61 @@ const data = [
     header: "Memory Game",
     git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-21",
   },
+  {
+    img: "Project-23/tb.png",
+    header: "Calculator",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-23",
+  },
+  {
+    img: "Project-24/tb.png",
+    header: "Racing Game",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-24",
+  },
+  {
+    img: "Project-25/tb.png",
+    header: "Click popper Game",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-25",
+  },
+  {
+    img: "Project-26/tb.png",
+    header: "Typing Test",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-26",
+  },
+  {
+    img: "Project-27/tb.png",
+    header: "Email Exctractor",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-27",
+  },
+  {
+    img: "Project-28/tb.png",
+    header: "Functionator",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-28",
+  },
+  {
+    img: "Project-29/tb.png",
+    header: "Palindrome Validator",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-29",
+  },
+  {
+    img: "Project-30/tb.png",
+    header: "Telephone number validator",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-30",
+  },
+  {
+    img: "Project-31/tb.png",
+    header: "Popup Message",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-31",
+  },
+  {
+    img: "Project-32/tb.png",
+    header: "Tip Calculator",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-32",
+  },
+  {
+    img: "Project-33/tb.png",
+    header: "Dice Game",
+    git: "https://github.com/ankitdetroja/Vanilla-JavaScript-Projects/tree/master/Project-33",
+  },
 ];
 
 window.addEventListener("DOMContentLoaded", () => {

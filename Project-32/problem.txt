@@ -1,0 +1,3 @@
+Tip Counter 
+
+You have to count 15% tip basis on bill amount.
