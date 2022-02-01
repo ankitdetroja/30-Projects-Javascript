@@ -93,6 +93,10 @@ header {
   height: 300px;
   flex-shrink: 0;
   margin-bottom: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.projectItem:hover {
+  transform: scale(1.1);
 }
 .projectItem .imgBox {
   width: 100%;
